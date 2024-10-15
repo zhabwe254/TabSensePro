@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Enhanced Tab Manager Pro",
+  "version": "3.0",
+  "description": "Categorize, hide, and manage your tabs with ease",
+  "permissions": ["tabs", "storage"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "options_page": "options.html"
+}
